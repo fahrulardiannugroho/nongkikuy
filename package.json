@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "node sharp.js && webpack --config webpack.prod.js",
+		"build-image": "node sharp.js",
+		"bundle-report": "webpack-bundle-analyzer --port 4200 dist/stats.json",
     "test": "karma start",
     "lint": "eslint ./src",
-    "e2e": "codeceptjs run --steps",
-    "build": "node sharp.js && webpack --config webpack.prod.js",
-    "build-image": "node sharp.js",
-    "dev": "webpack-dev-server --config webpack.dev.js"
+    "e2e": "codeceptjs run --steps"
   },
   "author": "",
   "license": "ISC",
