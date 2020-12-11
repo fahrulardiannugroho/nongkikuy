@@ -6,7 +6,6 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 const ImageminWebpackPlugin = require('imagemin-webpack-plugin').default;
 const ImageminPngQuant = require('imagemin-pngquant');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const { SourceMapDevToolPlugin } = require('webpack');
 const ImageminWebpWebpackPlugin = require('imagemin-webp-webpack-plugin');
 const path = require('path');
@@ -109,7 +108,6 @@ module.exports = {
 			],
 			overrideExtension: true,
 		}),
-		new BundleAnalyzerPlugin(),
 		new SourceMapDevToolPlugin({
 			filename: '[file].map',
 		}),
