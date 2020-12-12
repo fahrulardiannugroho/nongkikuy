@@ -111,6 +111,11 @@
 			.detail__category {
 				display: grid;
 				grid-template-columns: 1fr 4fr;
+
+				div {
+					display: grid;
+					grid-template-columns: repeat(4, 1fr);
+				}
 			}
 
 			.detail__menus {
@@ -140,7 +145,7 @@
 					}
 
 					.review-post {
-						width: 25%;
+						width: 25% !important;
 					}
 				}
 			}
@@ -153,7 +158,7 @@
 
 		.likeButtonContainer {
 			.likeButton {
-				width: 50%;
+				width: 25%;
 			}
 		}
 	}
