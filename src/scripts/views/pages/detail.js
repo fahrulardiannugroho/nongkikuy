@@ -1,4 +1,4 @@
-import swal from 'sweetalert';
+// import swal from 'sweetalert';
 import favoriteRestaurantIdb from '../../data/favoriterestaurant-idb';
 import RestaurantApiSource from '../../data/restaurantApi-source';
 import UrlParser from '../../routes/url-parser';
@@ -20,12 +20,11 @@ const Detail = {
 
 	async afterRender() {
 		const detailContainer = document.querySelector('#detailContainer');
+		const url = UrlParser.parseActiveUrlWithoutCombainer();
 
 		try {
-			const url = UrlParser.parseActiveUrlWithoutCombainer();
 			const restaurant = await RestaurantApiSource.restaurantDetail(url.id);
 			const { categories, menus, customerReviews } = restaurant;
-
 			this._restaurantDetailTemplate({
 				restaurant, detailContainer, categories, menus, customerReviews, url,
 			});
@@ -39,38 +38,35 @@ const Detail = {
 			this._addLoaderAnimation(detailContainer);
 			this._networkErrorContainer(detailContainer);
 		}
-	},
 
-	_restaurantDetailTemplate({
-		restaurant, detailContainer, categories, menus, customerReviews, url,
-	}) {
-		detailContainer.innerHTML = createRestaurantDetailTemplate({
-			restaurant, categories, menus, customerReviews,
-		});
 		const reviewer = document.querySelector('#reviewerName');
 		const review = document.querySelector('#reviewArea');
 		const reviewButton = document.querySelector('#reviewButton');
 
-		this._addConsumerReview({
-			reviewer, review, reviewButton, url, detailContainer,
+		reviewButton.addEventListener('click', () => {
+			this._addConsumerReview({
+				reviewer, review, url,
+			});
 		});
 	},
 
-	_addConsumerReview({
-		reviewer, review, reviewButton, url,
+	_restaurantDetailTemplate({
+		restaurant, detailContainer, categories, menus, customerReviews,
 	}) {
-		reviewButton.addEventListener('click', () => {
-			if ((reviewer.value && review.value) !== '') {
-				const consumerReview = {
-					id: url.id,
-					name: reviewer.value,
-					review: review.value,
-				};
-				RestaurantApiSource.addCustomerReview(consumerReview);
-			} else {
-				swal('info!', 'please fill in the review field!', 'info');
-			}
+		detailContainer.innerHTML = createRestaurantDetailTemplate({
+			restaurant, categories, menus, customerReviews,
 		});
+	},
+
+	_addConsumerReview({ reviewer, review, url }) {
+		if ((reviewer.value && review.value) !== '') {
+			const consumerReview = {
+				id: url.id,
+				name: reviewer.value,
+				review: review.value,
+			};
+			RestaurantApiSource.addCustomerReview(consumerReview);
+		}
 	},
 
 	_addLoaderAnimation(detailContainer) {

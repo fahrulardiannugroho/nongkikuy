@@ -52,10 +52,7 @@ class App {
 		const url = UrlParser.parseActiveUrlWithCombainer();
 		const page = Routes[url];
 		this._main.innerHTML = await page.render();
-		await page.afterRender({
-			searchButton: this._searchButton,
-			searchQuery: this._searchQuery,
-		});
+		await page.afterRender();
 	}
 }
 

@@ -101,29 +101,34 @@ const createRestaurantDetailTemplate = ({
 		<section class="detail__menus">
 			<h3>Menus</h3>
 			<div class="content">
-				<div class="menu">
-				<h4>Foods</h4>
-				<hr>
+			<h4>Foods</h4>
+			<div class="menu">
 				${menus.foods.map((food) => `
-					<p>${food.name}</p>
+					<div class="menu-item">
+						<img src="./food.webp" alt="${food.name}">
+						<p class="item">${food.name}</p>
+					</div>
 				`).join('')}
-				</div>
-				<div class="menu">
-					<h4>Drinks</h4>
-					<hr>
-					${menus.drinks.map((drink) => `
-					<p>${drink.name}</p>
+			</div>
+			<h4>Drinks</h4>
+			<div class="menu">
+				${menus.drinks.map((drink) => `
+					<div class="menu-item">
+						<img src="./drink.webp" alt="${drink.name}">
+						<p class="item">${drink.name}</p>
+					</div>
 				`).join('')}
-				</div>
 			</div>
 		</section>
 
 		<section class="detail__reviews">
 			<h3>Add Review</h3>
 			<div class="review">
-				<input type="text" id="reviewerName" class="reviewer-name" placeholder="Your name" required>
-				<textarea id="reviewArea" class="review-text" cols="30" rows="5" placeholder="Give your riview ..." required></textarea>
-				<button id="reviewButton" class="review-post">Post</button>
+				<form>
+					<input type="text" id="reviewerName" class="reviewer-name" placeholder="Your name" required>
+					<input type="text" id="reviewArea" class="review-text" placeholder="Give your riview.." required>
+					<button id="reviewButton" class="review-post">Post</button>
+				</form>
 			</div>
 		</section>
 
@@ -132,8 +137,7 @@ const createRestaurantDetailTemplate = ({
 			<div>
 			${customerReviews.map((customerReview) => `
 				<div class="review">
-					<p class="name"><i class="fa fa-user"></i>${customerReview.name}</p>
-					<p class="date">${customerReview.date}</p>
+					<p class="name"><i class="fa fa-user"></i>${customerReview.name}  ∙  <span class="date">${customerReview.date}</span></p>
 					<p class="review-text">${customerReview.review}</p>
 				</div>
 			`).join('')}

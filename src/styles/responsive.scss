@@ -9,6 +9,16 @@
 				}
 			}
 		}
+
+		.detail {
+			.detail__menus {
+				.content {
+					.menu::-webkit-scrollbar {
+						display: none;
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -106,6 +116,14 @@
 			.detail__menus {
 				display: grid;
 				grid-template-columns: 1fr 4fr;
+
+				.content {
+					.menu {
+						.menu-item {
+							min-width: 20%;
+						}
+					}
+				}
 			}
 
 			.detail__reviews {
@@ -113,8 +131,16 @@
 				grid-template-columns: 1fr 4fr;
 
 				.review {
+					.reviewer-name {
+						width: 95%;
+					}
+
 					.review-text {
 						width: 95%;
+					}
+
+					.review-post {
+						width: 25%;
 					}
 				}
 			}
@@ -211,28 +237,7 @@
 						width: 100%;
 					}
 				}
-			}
-
-			
-		}
-
-		.detail {
-			.detail__top {
-				display: grid;
-				grid-template-columns: 1fr 2fr;
-				gap: 20px;
-			}
-
-			.detail__reviews {
-				.review {
-					.reviewer-name {
-						width: 99%;
-					}
-					.review-text {
-						width: 98%;
-					}
-				}
-			}
+			}	
 		}
 	}
 }
