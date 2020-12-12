@@ -10,6 +10,8 @@ Things you can do when using Nongkikuy are:
 * Read and make a review
 
 ## Screens
+![screen](../master/art-in-repo/mobile-view.png)
+![screen](../master/art-in-repo/laptop-view.jpg)
 
 ## How to Configure
 Get the Repository

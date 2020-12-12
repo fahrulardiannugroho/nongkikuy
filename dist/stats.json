@@ -6,8 +6,8 @@
   ],
   "version": "4.44.2",
   "hash": "0c4fb62027a00f60e0a0",
-  "time": 16249,
-  "builtAt": 1607786124756,
+  "time": 17327,
+  "builtAt": 1607790243158,
   "publicPath": "",
   "outputPath": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\dist",
   "assetsByChunkName": {
@@ -1890,9 +1890,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\favoriterestaurant-idb.js",
+              "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
               "issuerId": null,
-              "issuerName": "./src/scripts/data/favoriterestaurant-idb.js",
+              "issuerName": "./src/scripts/data/restaurantApi-source.js",
               "issuerPath": [
                 {
                   "id": null,
@@ -1916,8 +1916,8 @@
                 },
                 {
                   "id": null,
-                  "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\favoriterestaurant-idb.js",
-                  "name": "./src/scripts/data/favoriterestaurant-idb.js"
+                  "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
+                  "name": "./src/scripts/data/restaurantApi-source.js"
                 }
               ],
               "failed": false,
@@ -3103,9 +3103,9 @@
           "chunks": [
             3
           ],
-          "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\plugins\\parent-fit\\ls.parent-fit.js",
-          "issuerId": 15,
-          "issuerName": "./node_modules/lazysizes/plugins/parent-fit/ls.parent-fit.js",
+          "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\lazysizes.js",
+          "issuerId": 4,
+          "issuerName": "./node_modules/lazysizes/lazysizes.js",
           "issuerPath": [
             {
               "id": null,
@@ -3113,9 +3113,9 @@
               "name": "./src/scripts/index.js"
             },
             {
-              "id": 15,
-              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\plugins\\parent-fit\\ls.parent-fit.js",
-              "name": "./node_modules/lazysizes/plugins/parent-fit/ls.parent-fit.js"
+              "id": 4,
+              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\lazysizes.js",
+              "name": "./node_modules/lazysizes/lazysizes.js"
             }
           ],
           "failed": false,
@@ -3821,9 +3821,9 @@
       "chunks": [
         3
       ],
-      "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\plugins\\parent-fit\\ls.parent-fit.js",
-      "issuerId": 15,
-      "issuerName": "./node_modules/lazysizes/plugins/parent-fit/ls.parent-fit.js",
+      "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\lazysizes.js",
+      "issuerId": 4,
+      "issuerName": "./node_modules/lazysizes/lazysizes.js",
       "issuerPath": [
         {
           "id": null,
@@ -3831,9 +3831,9 @@
           "name": "./src/scripts/index.js"
         },
         {
-          "id": 15,
-          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\plugins\\parent-fit\\ls.parent-fit.js",
-          "name": "./node_modules/lazysizes/plugins/parent-fit/ls.parent-fit.js"
+          "id": 4,
+          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\lazysizes.js",
+          "name": "./node_modules/lazysizes/lazysizes.js"
         }
       ],
       "failed": false,
@@ -6616,9 +6616,9 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\favoriterestaurant-idb.js",
+          "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
           "issuerId": null,
-          "issuerName": "./src/scripts/data/favoriterestaurant-idb.js",
+          "issuerName": "./src/scripts/data/restaurantApi-source.js",
           "issuerPath": [
             {
               "id": null,
@@ -6642,8 +6642,8 @@
             },
             {
               "id": null,
-              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\favoriterestaurant-idb.js",
-              "name": "./src/scripts/data/favoriterestaurant-idb.js"
+              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
+              "name": "./src/scripts/data/restaurantApi-source.js"
             }
           ],
           "failed": false,
