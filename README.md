@@ -54,5 +54,5 @@ Tools
 ## Menjadi Front-End Web Developer Expert Certificate
 [![dicoding][1]][2]
 
-[1]: ..master/art-in-repo/mfwde-sertificate.jpg
+[1]: ../master/art-in-repo/mfwde-sertificate.jpg
 [2]: https://www.dicoding.com/academies/219
