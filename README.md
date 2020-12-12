@@ -1,5 +1,5 @@
 # Nongkikuy - Restaurant Catalogue
-Here's a fully functional Progressive Web App I built from scratch for public use. This is the final project of the submission to become a Front-End Web Developer Expert program with [Dicoding](https://www.dicoding.com/) X [IDCamp Indosat Ooredoo](https://idcamp.indosatooredoo.com/). This web application reveals the power of a UI for mobile devices that can be used offline.
+Here's a fully functional Progressive Web App I built from scratch for public use. This is the final project of the submission to become a Front-End Web Developer Expert program with [Dicoding](https://www.dicoding.com/) X [IDCamp Indosat Ooredoo](https://idcamp.indosatooredoo.com/). This web application is mobile responsive and can be used offline.
 
 ## Features
 Things you can do when using Nongkikuy are:
@@ -55,4 +55,4 @@ Tools
 [![dicoding][1]][2]
 
 [1]: ../master/art-in-repo/mfwde-sertificate.jpg
-[2]: https://www.dicoding.com/academies/219
+[2]: https://www.dicoding.com/certificates/L4PQM8LM7ZO1
