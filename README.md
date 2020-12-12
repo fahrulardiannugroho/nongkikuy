@@ -1,5 +1,5 @@
 # Nongkikuy - Restaurant Catalogue
-Here's a fully functional Progressive Web App I built from scratch for public use. This is the final project of the submission to become a Front-End Web Developer Expert program with Coding X IDCamp Indosat Ooredo. This web application reveals the power of a UI for mobile devices that can be used offline.
+Here's a fully functional Progressive Web App I built from scratch for public use. This is the final project of the submission to become a Front-End Web Developer Expert program with *Dicoding* X *IDCamp Indosat Ooredo*. This web application reveals the power of a UI for mobile devices that can be used offline.
 
 ## Features
 Things you can do when using Nongkikuy are:
@@ -9,8 +9,10 @@ Things you can do when using Nongkikuy are:
 * Save your favorite restaurants locally to view them even when offline
 * Read and make a review
 
+## Screens
+
 ## How to Configure
-API
+Get the Repository
 
 ```cmd
 git clone https://github.com/fahrulardiannugroho/nongkikuy-restaurant-catalogue.git
@@ -31,7 +33,7 @@ Testing
 
 ## Tech
 Made Using
-- [HTML](https://webpack.js.org/)
+- [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
 - [Javascript](https://www.javascript.com/)
 - [Webpack](https://webpack.js.org/)
@@ -48,7 +50,5 @@ Tools
 - [Imagemin](https://github.com/imagemin/imagemin)
 - [Sweetalert](https://sweetalert.js.org/guides/)
 - [SASS](https://sass-lang.com/)
-
-## Screens
 
 ## Menjadi Front-End Web Developer Expert Certificate
