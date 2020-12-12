@@ -19,8 +19,11 @@ const Search = {
 		`;
 	},
 
-	async afterRender({ searchButton, searchQuery }) {
+	async afterRender() {
 		const restaurantContainer = document.querySelector('#restaurantContent');
+		const searchButton = document.querySelector('#searchButton');
+		const searchQuery = document.querySelector('#searchQuery');
+
 		searchButton.addEventListener('click', async () => {
 			try {
 				const restaurantFromSearch = await RestaurantApiSource.restaurantSearch(searchQuery.value);

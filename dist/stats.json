@@ -5,9 +5,9 @@
     "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
   "version": "4.44.2",
-  "hash": "d932e64faf8334d082b5",
-  "time": 16283,
-  "builtAt": 1607765996508,
+  "hash": "0c4fb62027a00f60e0a0",
+  "time": 16249,
+  "builtAt": 1607786124756,
   "publicPath": "",
   "outputPath": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\dist",
   "assetsByChunkName": {
@@ -296,7 +296,7 @@
     },
     {
       "name": "main~5785a947.bundle.js",
-      "size": 25355,
+      "size": 25226,
       "chunks": [
         0
       ],
@@ -308,7 +308,7 @@
     },
     {
       "name": "main~5785a947.bundle.js.map",
-      "size": 39662,
+      "size": 39384,
       "chunks": [
         0
       ],
@@ -528,7 +528,7 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 54287,
+      "size": 54071,
       "names": [
         "main~5785a947"
       ],
@@ -536,7 +536,7 @@
         "main~5785a947.bundle.js",
         "main~5785a947.bundle.js.map"
       ],
-      "hash": "c612b45f823e2910ac56",
+      "hash": "eb6c0ac9d380b9b1327c",
       "siblings": [
         1,
         2,
@@ -553,7 +553,7 @@
           "name": "./src/scripts/index.js + 17 modules",
           "index": 0,
           "index2": 36,
-          "size": 54287,
+          "size": 54071,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -597,7 +597,7 @@
               "name": "./src/scripts/index.js",
               "index": 0,
               "index2": 36,
-              "size": 914,
+              "size": 802,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -635,7 +635,7 @@
               "name": "./src/scripts/views/app.js",
               "index": 12,
               "index2": 33,
-              "size": 3935,
+              "size": 3777,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -727,7 +727,7 @@
                   "moduleName": "./src/scripts/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "./utils/sw-register",
-                  "loc": "24:2-12"
+                  "loc": "22:2-12"
                 }
               ],
               "usedExports": [
@@ -805,7 +805,7 @@
                   "moduleName": "./src/scripts/views/app.js",
                   "type": "harmony import specifier",
                   "userRequest": "../routes/url-parser",
-                  "loc": "71:22-31"
+                  "loc": "67:22-31"
                 }
               ],
               "usedExports": [
@@ -865,7 +865,7 @@
                   "moduleName": "./src/scripts/views/app.js",
                   "type": "harmony import specifier",
                   "userRequest": "../routes/routes",
-                  "loc": "72:23-29"
+                  "loc": "68:23-29"
                 }
               ],
               "usedExports": [
@@ -925,7 +925,7 @@
                   "moduleName": "./src/scripts/views/app.js",
                   "type": "harmony import specifier",
                   "userRequest": "../utils/drawer-initiator",
-                  "loc": "47:6-21"
+                  "loc": "43:6-21"
                 }
               ],
               "usedExports": [
@@ -985,7 +985,7 @@
                   "moduleName": "./src/scripts/views/app.js",
                   "type": "harmony import specifier",
                   "userRequest": "../utils/jumbotron-initiator",
-                  "loc": "52:6-24"
+                  "loc": "48:6-24"
                 }
               ],
               "usedExports": [
@@ -1045,7 +1045,7 @@
                   "moduleName": "./src/scripts/views/app.js",
                   "type": "harmony import specifier",
                   "userRequest": "../utils/searchbar-initiator",
-                  "loc": "56:6-24"
+                  "loc": "52:6-24"
                 }
               ],
               "usedExports": [
@@ -1267,7 +1267,7 @@
               "name": "./src/scripts/views/pages/search.js",
               "index": 31,
               "index2": 28,
-              "size": 4079,
+              "size": 4133,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1467,21 +1467,21 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\favorite.js",
-                  "module": "./src/scripts/views/pages/favorite.js",
-                  "moduleName": "./src/scripts/views/pages/favorite.js",
-                  "type": "harmony side effect evaluation",
-                  "userRequest": "../templates/template-creator",
-                  "loc": "6:0-137"
-                },
-                {
-                  "moduleId": null,
                   "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\restaurants.js",
                   "module": "./src/scripts/views/pages/restaurants.js",
                   "moduleName": "./src/scripts/views/pages/restaurants.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../templates/template-creator",
                   "loc": "6:0-105"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\favorite.js",
+                  "module": "./src/scripts/views/pages/favorite.js",
+                  "moduleName": "./src/scripts/views/pages/favorite.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../templates/template-creator",
+                  "loc": "6:0-137"
                 },
                 {
                   "moduleId": null,
@@ -1562,7 +1562,7 @@
                   "moduleName": "./src/scripts/views/pages/search.js",
                   "type": "harmony import specifier",
                   "userRequest": "../templates/template-creator",
-                  "loc": "80:38-66"
+                  "loc": "81:38-66"
                 },
                 {
                   "moduleId": null,
@@ -1571,7 +1571,7 @@
                   "moduleName": "./src/scripts/views/pages/search.js",
                   "type": "harmony import specifier",
                   "userRequest": "../templates/template-creator",
-                  "loc": "83:41-71"
+                  "loc": "84:41-71"
                 },
                 {
                   "moduleId": null,
@@ -1580,7 +1580,7 @@
                   "moduleName": "./src/scripts/views/pages/search.js",
                   "type": "harmony import specifier",
                   "userRequest": "../templates/template-creator",
-                  "loc": "88:36-62"
+                  "loc": "89:36-62"
                 },
                 {
                   "moduleId": null,
@@ -1787,7 +1787,7 @@
                   "moduleName": "./src/scripts/views/pages/search.js",
                   "type": "harmony import specifier",
                   "userRequest": "../../data/restaurantApi-source",
-                  "loc": "44:31-50"
+                  "loc": "45:31-50"
                 },
                 {
                   "moduleId": null,
@@ -5279,7 +5279,7 @@
       "name": "./src/scripts/index.js + 17 modules",
       "index": 0,
       "index2": 36,
-      "size": 54287,
+      "size": 54071,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -5323,7 +5323,7 @@
           "name": "./src/scripts/index.js",
           "index": 0,
           "index2": 36,
-          "size": 914,
+          "size": 802,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5361,7 +5361,7 @@
           "name": "./src/scripts/views/app.js",
           "index": 12,
           "index2": 33,
-          "size": 3935,
+          "size": 3777,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5453,7 +5453,7 @@
               "moduleName": "./src/scripts/index.js",
               "type": "harmony import specifier",
               "userRequest": "./utils/sw-register",
-              "loc": "24:2-12"
+              "loc": "22:2-12"
             }
           ],
           "usedExports": [
@@ -5531,7 +5531,7 @@
               "moduleName": "./src/scripts/views/app.js",
               "type": "harmony import specifier",
               "userRequest": "../routes/url-parser",
-              "loc": "71:22-31"
+              "loc": "67:22-31"
             }
           ],
           "usedExports": [
@@ -5591,7 +5591,7 @@
               "moduleName": "./src/scripts/views/app.js",
               "type": "harmony import specifier",
               "userRequest": "../routes/routes",
-              "loc": "72:23-29"
+              "loc": "68:23-29"
             }
           ],
           "usedExports": [
@@ -5651,7 +5651,7 @@
               "moduleName": "./src/scripts/views/app.js",
               "type": "harmony import specifier",
               "userRequest": "../utils/drawer-initiator",
-              "loc": "47:6-21"
+              "loc": "43:6-21"
             }
           ],
           "usedExports": [
@@ -5711,7 +5711,7 @@
               "moduleName": "./src/scripts/views/app.js",
               "type": "harmony import specifier",
               "userRequest": "../utils/jumbotron-initiator",
-              "loc": "52:6-24"
+              "loc": "48:6-24"
             }
           ],
           "usedExports": [
@@ -5771,7 +5771,7 @@
               "moduleName": "./src/scripts/views/app.js",
               "type": "harmony import specifier",
               "userRequest": "../utils/searchbar-initiator",
-              "loc": "56:6-24"
+              "loc": "52:6-24"
             }
           ],
           "usedExports": [
@@ -5993,7 +5993,7 @@
           "name": "./src/scripts/views/pages/search.js",
           "index": 31,
           "index2": 28,
-          "size": 4079,
+          "size": 4133,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -6193,21 +6193,21 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\favorite.js",
-              "module": "./src/scripts/views/pages/favorite.js",
-              "moduleName": "./src/scripts/views/pages/favorite.js",
-              "type": "harmony side effect evaluation",
-              "userRequest": "../templates/template-creator",
-              "loc": "6:0-137"
-            },
-            {
-              "moduleId": null,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\restaurants.js",
               "module": "./src/scripts/views/pages/restaurants.js",
               "moduleName": "./src/scripts/views/pages/restaurants.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../templates/template-creator",
               "loc": "6:0-105"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\favorite.js",
+              "module": "./src/scripts/views/pages/favorite.js",
+              "moduleName": "./src/scripts/views/pages/favorite.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../templates/template-creator",
+              "loc": "6:0-137"
             },
             {
               "moduleId": null,
@@ -6288,7 +6288,7 @@
               "moduleName": "./src/scripts/views/pages/search.js",
               "type": "harmony import specifier",
               "userRequest": "../templates/template-creator",
-              "loc": "80:38-66"
+              "loc": "81:38-66"
             },
             {
               "moduleId": null,
@@ -6297,7 +6297,7 @@
               "moduleName": "./src/scripts/views/pages/search.js",
               "type": "harmony import specifier",
               "userRequest": "../templates/template-creator",
-              "loc": "83:41-71"
+              "loc": "84:41-71"
             },
             {
               "moduleId": null,
@@ -6306,7 +6306,7 @@
               "moduleName": "./src/scripts/views/pages/search.js",
               "type": "harmony import specifier",
               "userRequest": "../templates/template-creator",
-              "loc": "88:36-62"
+              "loc": "89:36-62"
             },
             {
               "moduleId": null,
@@ -6513,7 +6513,7 @@
               "moduleName": "./src/scripts/views/pages/search.js",
               "type": "harmony import specifier",
               "userRequest": "../../data/restaurantApi-source",
-              "loc": "44:31-50"
+              "loc": "45:31-50"
             },
             {
               "moduleId": null,

@@ -14,8 +14,6 @@ const app = new App({
 	jumbotron: document.querySelector('#jumbotron'),
 	searchIcon: document.querySelector('#searchIcon'),
 	searchBar: document.querySelector('#searchBar'),
-	searchQuery: document.querySelector('#searchQuery'),
-	searchButton: document.querySelector('#searchButton'),
 });
 
 window.addEventListener('hashchange', () => {

@@ -13,8 +13,6 @@ class App {
 		jumbotron,
 		searchIcon,
 		searchBar,
-		searchQuery,
-		searchButton,
 	}) {
 		this._hamburgerButton = hamburgerButton;
 		this._navigationDrawer = navigationDrawer;
@@ -23,8 +21,6 @@ class App {
 		this._jumbotron = jumbotron;
 		this._searchIcon = searchIcon;
 		this._searchBar = searchBar;
-		this._searchQuery = searchQuery;
-		this._searchButton = searchButton;
 
 		this._initialAppShell();
 	}
