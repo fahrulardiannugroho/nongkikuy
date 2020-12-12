@@ -510,9 +510,18 @@ main {
 			}
 
 			div {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 8px;
+				margin: 8px;
+
 				p {
 					font-size: 14px;
 					font-weight: 300;
+					background-color: $abu-muda;
+					border-radius: 5px;
+					text-align: center;
+					padding: 8px;
 				}
 			}
 		}
@@ -541,7 +550,7 @@ main {
 					width: 100%;
 
 					.menu-item {
-						min-width: 35%;
+						min-width: 30%;
 						display: flex;
 						flex-direction: column;
 						border-radius: 5px;
@@ -586,7 +595,7 @@ main {
 					border: none;
 					border-radius: 5px;
 					padding-left: 5%;
-					margin-top: 5px;
+					margin-top: 8px;
 				}
 
 				.review-text {
@@ -596,7 +605,7 @@ main {
 					border: none;
 					border-radius: 5px;
 					padding-left: 5%;
-					margin-top: 5px;
+					margin-top: 8px;
 				}
 
 				.reviewer-name::-webkit-input-placeholder,
@@ -606,22 +615,30 @@ main {
 					font-weight: 300;
 				}
 
-				.review-post {
-					margin-top: 5px;
-					height: 45px;
-					width: 100%;
-					background-color: $orange-color;
-					border: none;
-					border-radius: 5px;
-					color: $white-color;
-					font-size: 14px;
-					text-align: center;
-					opacity: 70%;
+				div {
+					display: flex;
 
-					&:hover {
-						opacity: 100%;
+					.review-post {
+						margin-top: 5px;
+						height: 45px;
+						width: 50%;
+						margin-left: auto;
+						margin-top: 8px;
+						background-color: $white-color;
+						border: 1px solid $orange-color;
+						border-radius: 5px;
+						background-color: $orange-color;
+						color: $white-color;
+						font-size: 14px;
+						text-align: center;
+						opacity: 70%;
+	
+						&:hover {
+							opacity: 100%;
+						}
 					}
 				}
+
 			}
 		}
 

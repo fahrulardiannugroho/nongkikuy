@@ -127,7 +127,9 @@ const createRestaurantDetailTemplate = ({
 				<form>
 					<input type="text" id="reviewerName" class="reviewer-name" placeholder="Your name" required>
 					<input type="text" id="reviewArea" class="review-text" placeholder="Give your riview.." required>
-					<button id="reviewButton" class="review-post">Post</button>
+					<div>
+						<button id="reviewButton" class="review-post">Post</button>
+					</div>
 				</form>
 			</div>
 		</section>
