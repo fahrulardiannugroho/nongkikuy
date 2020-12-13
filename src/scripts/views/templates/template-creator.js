@@ -125,12 +125,12 @@ const createRestaurantDetailTemplate = ({
 			<h3>Add Review</h3>
 			<div class="review">
 				<form>
+				</form>
 					<input type="text" id="reviewerName" class="reviewer-name" placeholder="Your name" required>
 					<input type="text" id="reviewArea" class="review-text" placeholder="Give your riview.." required>
 					<div>
-						<button id="reviewButton" class="review-post">Post</button>
+						<button type="submit" id="reviewButton" class="review-post">Post</button>
 					</div>
-				</form>
 			</div>
 		</section>
 
@@ -139,7 +139,7 @@ const createRestaurantDetailTemplate = ({
 			<div>
 			${customerReviews.map((customerReview) => `
 				<div class="review">
-					<p class="name"><i class="fa fa-user"></i>${customerReview.name}  ∙  <span class="date">${customerReview.date}</span></p>
+					<p><i class="fa fa-user"></i><span class="name">${customerReview.name}</span>  ∙  <span class="date">${customerReview.date}</span></p>
 					<p class="review-text">${customerReview.review}</p>
 				</div>
 			`).join('')}

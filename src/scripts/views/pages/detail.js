@@ -1,4 +1,5 @@
-// import swal from 'sweetalert';
+/* eslint-disable no-alert */
+import swal from 'sweetalert';
 import favoriteRestaurantIdb from '../../data/favoriterestaurant-idb';
 import RestaurantApiSource from '../../data/restaurantApi-source';
 import UrlParser from '../../routes/url-parser';
@@ -25,6 +26,7 @@ const Detail = {
 		try {
 			const restaurant = await RestaurantApiSource.restaurantDetail(url.id);
 			const { categories, menus, customerReviews } = restaurant;
+
 			this._restaurantDetailTemplate({
 				restaurant, detailContainer, categories, menus, customerReviews, url,
 			});
@@ -43,7 +45,8 @@ const Detail = {
 		const review = document.querySelector('#reviewArea');
 		const reviewButton = document.querySelector('#reviewButton');
 
-		reviewButton.addEventListener('click', () => {
+		reviewButton.addEventListener('click', (event) => {
+			event.preventDefault();
 			this._addConsumerReview({
 				reviewer, review, url,
 			});
@@ -66,6 +69,8 @@ const Detail = {
 				review: review.value,
 			};
 			RestaurantApiSource.addCustomerReview(consumerReview);
+		} else {
+			swal('Info!', 'Form tidak boleh kosong', 'info');
 		}
 	},
 
