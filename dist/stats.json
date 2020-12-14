@@ -5,9 +5,9 @@
     "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
   "version": "4.44.2",
-  "hash": "0c4fb62027a00f60e0a0",
-  "time": 15473,
-  "builtAt": 1607833902548,
+  "hash": "7e8e802a6769445cb17c",
+  "time": 13674,
+  "builtAt": 1607912669890,
   "publicPath": "",
   "outputPath": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\dist",
   "assetsByChunkName": {
@@ -296,7 +296,7 @@
     },
     {
       "name": "main~5785a947.bundle.js",
-      "size": 25226,
+      "size": 25323,
       "chunks": [
         0
       ],
@@ -308,7 +308,7 @@
     },
     {
       "name": "main~5785a947.bundle.js.map",
-      "size": 39384,
+      "size": 39631,
       "chunks": [
         0
       ],
@@ -376,7 +376,7 @@
     },
     {
       "name": "sw.js",
-      "size": 12899,
+      "size": 12951,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -384,7 +384,7 @@
     },
     {
       "name": "sw.js.map",
-      "size": 45504,
+      "size": 45682,
       "chunks": [],
       "chunkNames": [],
       "info": {
@@ -432,7 +432,7 @@
     },
     {
       "name": "vendors~main~ec8c427e.bundle.js.map",
-      "size": 83722,
+      "size": 83505,
       "chunks": [
         3
       ],
@@ -528,7 +528,7 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 54071,
+      "size": 54242,
       "names": [
         "main~5785a947"
       ],
@@ -536,7 +536,7 @@
         "main~5785a947.bundle.js",
         "main~5785a947.bundle.js.map"
       ],
-      "hash": "eb6c0ac9d380b9b1327c",
+      "hash": "0d546280c77c00a95219",
       "siblings": [
         1,
         2,
@@ -553,7 +553,7 @@
           "name": "./src/scripts/index.js + 17 modules",
           "index": 0,
           "index2": 36,
-          "size": 54071,
+          "size": 54242,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -778,7 +778,7 @@
                   "moduleName": "./src/scripts/views/pages/detail.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../../routes/url-parser",
-                  "loc": "8:0-48"
+                  "loc": "9:0-48"
                 },
                 {
                   "moduleId": null,
@@ -796,7 +796,7 @@
                   "moduleName": "./src/scripts/views/pages/detail.js",
                   "type": "harmony import specifier",
                   "userRequest": "../../routes/url-parser",
-                  "loc": "38:20-29"
+                  "loc": "39:20-29"
                 },
                 {
                   "moduleId": null,
@@ -1063,7 +1063,7 @@
               "name": "./src/scripts/views/pages/detail.js",
               "index": 14,
               "index2": 25,
-              "size": 5356,
+              "size": 5498,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1330,8 +1330,8 @@
               "id": null,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\favoriterestaurant-idb.js",
               "name": "./src/scripts/data/favoriterestaurant-idb.js",
-              "index": 15,
-              "index2": 14,
+              "index": 20,
+              "index2": 19,
               "size": 4066,
               "cacheable": true,
               "built": true,
@@ -1384,7 +1384,7 @@
                   "moduleName": "./src/scripts/views/pages/detail.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../../data/favoriterestaurant-idb",
-                  "loc": "6:0-70"
+                  "loc": "7:0-70"
                 },
                 {
                   "moduleId": null,
@@ -1402,7 +1402,7 @@
                   "moduleName": "./src/scripts/views/pages/detail.js",
                   "type": "harmony import specifier",
                   "userRequest": "../../data/favoriterestaurant-idb",
-                  "loc": "58:36-57"
+                  "loc": "59:36-57"
                 }
               ],
               "usedExports": [
@@ -1420,7 +1420,7 @@
               "name": "./src/scripts/views/templates/template-creator.js",
               "index": 26,
               "index2": 21,
-              "size": 7144,
+              "size": 7173,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1499,7 +1499,7 @@
                   "moduleName": "./src/scripts/views/pages/detail.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../templates/template-creator",
-                  "loc": "10:0-167"
+                  "loc": "11:0-167"
                 },
                 {
                   "moduleId": null,
@@ -1584,15 +1584,6 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\detail.js",
-                  "module": "./src/scripts/views/pages/detail.js",
-                  "moduleName": "./src/scripts/views/pages/detail.js",
-                  "type": "harmony import specifier",
-                  "userRequest": "../templates/template-creator",
-                  "loc": "98:32-62"
-                },
-                {
-                  "moduleId": null,
                   "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\utils\\like-button-presenter.js",
                   "module": "./src/scripts/utils/like-button-presenter.js",
                   "moduleName": "./src/scripts/utils/like-button-presenter.js",
@@ -1607,7 +1598,7 @@
                   "moduleName": "./src/scripts/views/pages/detail.js",
                   "type": "harmony import specifier",
                   "userRequest": "../templates/template-creator",
-                  "loc": "120:32-54"
+                  "loc": "101:32-62"
                 },
                 {
                   "moduleId": null,
@@ -1616,7 +1607,7 @@
                   "moduleName": "./src/scripts/views/pages/detail.js",
                   "type": "harmony import specifier",
                   "userRequest": "../templates/template-creator",
-                  "loc": "124:34-60"
+                  "loc": "125:32-54"
                 },
                 {
                   "moduleId": null,
@@ -1625,7 +1616,16 @@
                   "moduleName": "./src/scripts/views/pages/detail.js",
                   "type": "harmony import specifier",
                   "userRequest": "../templates/template-creator",
-                  "loc": "128:36-70"
+                  "loc": "129:34-60"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\detail.js",
+                  "module": "./src/scripts/views/pages/detail.js",
+                  "moduleName": "./src/scripts/views/pages/detail.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "../templates/template-creator",
+                  "loc": "133:36-70"
                 },
                 {
                   "moduleId": null,
@@ -1697,7 +1697,7 @@
               "id": null,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
               "name": "./src/scripts/data/restaurantApi-source.js",
-              "index": 19,
+              "index": 24,
               "index2": 22,
               "size": 9606,
               "cacheable": true,
@@ -1760,7 +1760,7 @@
                   "moduleName": "./src/scripts/views/pages/detail.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../../data/restaurantApi-source",
-                  "loc": "7:0-66"
+                  "loc": "8:0-66"
                 },
                 {
                   "moduleId": null,
@@ -1778,7 +1778,7 @@
                   "moduleName": "./src/scripts/views/pages/detail.js",
                   "type": "harmony import specifier",
                   "userRequest": "../../data/restaurantApi-source",
-                  "loc": "41:21-40"
+                  "loc": "42:21-40"
                 },
                 {
                   "moduleId": null,
@@ -1796,7 +1796,7 @@
                   "moduleName": "./src/scripts/views/pages/detail.js",
                   "type": "harmony import specifier",
                   "userRequest": "../../data/restaurantApi-source",
-                  "loc": "116:6-25"
+                  "loc": "119:6-25"
                 }
               ],
               "usedExports": [
@@ -1857,7 +1857,7 @@
                   "moduleName": "./src/scripts/views/pages/detail.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../../utils/like-button-presenter",
-                  "loc": "9:0-68"
+                  "loc": "10:0-68"
                 },
                 {
                   "moduleId": null,
@@ -1866,7 +1866,7 @@
                   "moduleName": "./src/scripts/views/pages/detail.js",
                   "type": "harmony import specifier",
                   "userRequest": "../../utils/like-button-presenter",
-                  "loc": "56:14-33"
+                  "loc": "57:14-33"
                 }
               ],
               "usedExports": [
@@ -1882,8 +1882,8 @@
               "id": null,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\globals\\config.js",
               "name": "./src/scripts/globals/config.js",
-              "index": 18,
-              "index2": 13,
+              "index": 23,
+              "index2": 18,
               "size": 345,
               "cacheable": true,
               "built": true,
@@ -2201,7 +2201,7 @@
         "main~a7463e62.bundle.js",
         "main~a7463e62.bundle.js.map"
       ],
-      "hash": "c03db52a847dac074cab",
+      "hash": "c1b42216666589d54e67",
       "siblings": [
         0,
         2,
@@ -2213,7 +2213,7 @@
       "childrenByOrder": {},
       "modules": [
         {
-          "id": 5,
+          "id": 6,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\style.scss",
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
           "index": 5,
@@ -2286,7 +2286,7 @@
           "depth": 2
         },
         {
-          "id": 6,
+          "id": 7,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
           "index": 9,
@@ -2477,7 +2477,7 @@
         "vendors~main~d939e436.bundle.js",
         "vendors~main~d939e436.bundle.js.map"
       ],
-      "hash": "24fa9ce5040e00e7fd4d",
+      "hash": "43fc64a2a76a2674e2fb",
       "siblings": [
         0,
         1,
@@ -2503,7 +2503,7 @@
             2
           ],
           "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
-          "issuerId": 6,
+          "issuerId": 7,
           "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
           "issuerPath": [
             {
@@ -2517,7 +2517,7 @@
               "name": "./src/styles/responsive.scss"
             },
             {
-              "id": 6,
+              "id": 7,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss"
             }
@@ -2528,7 +2528,7 @@
           "assets": [],
           "reasons": [
             {
-              "moduleId": 5,
+              "moduleId": 6,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\style.scss",
               "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
               "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
@@ -2537,7 +2537,7 @@
               "loc": "2:0-121"
             },
             {
-              "moduleId": 5,
+              "moduleId": 6,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\style.scss",
               "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
               "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
@@ -2546,7 +2546,7 @@
               "loc": "4:58-95"
             },
             {
-              "moduleId": 6,
+              "moduleId": 7,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
               "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
               "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
@@ -2555,7 +2555,7 @@
               "loc": "2:0-121"
             },
             {
-              "moduleId": 6,
+              "moduleId": 7,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
               "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
               "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
@@ -2588,7 +2588,7 @@
             2
           ],
           "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
-          "issuerId": 6,
+          "issuerId": 7,
           "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
           "issuerPath": [
             {
@@ -2602,7 +2602,7 @@
               "name": "./src/styles/responsive.scss"
             },
             {
-              "id": 6,
+              "id": 7,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss"
             }
@@ -2613,7 +2613,7 @@
           "assets": [],
           "reasons": [
             {
-              "moduleId": 5,
+              "moduleId": 6,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\style.scss",
               "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
               "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
@@ -2622,7 +2622,7 @@
               "loc": "3:0-92"
             },
             {
-              "moduleId": 5,
+              "moduleId": 6,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\style.scss",
               "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
               "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
@@ -2631,7 +2631,7 @@
               "loc": "4:30-57"
             },
             {
-              "moduleId": 6,
+              "moduleId": 7,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
               "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
               "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
@@ -2640,7 +2640,7 @@
               "loc": "3:0-92"
             },
             {
-              "moduleId": 6,
+              "moduleId": 7,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
               "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
               "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
@@ -2659,7 +2659,7 @@
           "depth": 3
         },
         {
-          "id": 4,
+          "id": 5,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\lazysizes.js",
           "name": "./node_modules/lazysizes/lazysizes.js",
           "index": 10,
@@ -2726,8 +2726,8 @@
           "id": 11,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\idb\\build\\esm\\index.js f31e7a2bf85ce505e93ae12cd97b578f",
           "name": "./node_modules/idb/build/esm/index.js + 1 modules",
-          "index": 16,
-          "index2": 12,
+          "index": 21,
+          "index2": 17,
           "size": 13501,
           "cacheable": true,
           "built": true,
@@ -2780,8 +2780,8 @@
               "id": null,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\idb\\build\\esm\\index.js",
               "name": "./node_modules/idb/build/esm/index.js",
-              "index": 16,
-              "index2": 12,
+              "index": 21,
+              "index2": 17,
               "size": 6098,
               "cacheable": true,
               "built": true,
@@ -2858,8 +2858,8 @@
               "id": null,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\idb\\build\\esm\\wrap-idb-value.js",
               "name": "./node_modules/idb/build/esm/wrap-idb-value.js",
-              "index": 17,
-              "index2": 11,
+              "index": 22,
+              "index2": 16,
               "size": 7403,
               "cacheable": true,
               "built": true,
@@ -3078,7 +3078,7 @@
         "vendors~main~ec8c427e.bundle.js",
         "vendors~main~ec8c427e.bundle.js.map"
       ],
-      "hash": "9a5a98503538740a1bb9",
+      "hash": "f5a302b2e79d67dd07c0",
       "siblings": [
         0,
         1,
@@ -3125,21 +3125,21 @@
           "reasons": [
             {
               "moduleId": 4,
-              "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\lazysizes.js",
-              "module": "./node_modules/lazysizes/lazysizes.js",
-              "moduleName": "./node_modules/lazysizes/lazysizes.js",
-              "type": "cjs require",
-              "userRequest": "module",
-              "loc": "1:0-41"
-            },
-            {
-              "moduleId": 9,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
               "module": "./node_modules/sweetalert/dist/sweetalert.min.js",
               "moduleName": "./node_modules/sweetalert/dist/sweetalert.min.js",
               "type": "cjs require",
               "userRequest": "module",
               "loc": "1:0-44"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\lazysizes.js",
+              "module": "./node_modules/lazysizes/lazysizes.js",
+              "moduleName": "./node_modules/lazysizes/lazysizes.js",
+              "type": "cjs require",
+              "userRequest": "module",
+              "loc": "1:0-41"
             },
             {
               "moduleId": 12,
@@ -3168,11 +3168,101 @@
           "depth": 2
         },
         {
-          "id": 7,
+          "id": 4,
+          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
+          "name": "./node_modules/sweetalert/dist/sweetalert.min.js",
+          "index": 15,
+          "index2": 15,
+          "size": 58196,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            3
+          ],
+          "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\detail.js",
+          "issuerId": null,
+          "issuerName": "./src/scripts/views/pages/detail.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js",
+              "name": "./src/scripts/index.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\app.js",
+              "name": "./src/scripts/views/app.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\routes\\routes.js",
+              "name": "./src/scripts/routes/routes.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\detail.js",
+              "name": "./src/scripts/views/pages/detail.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 18,
+              "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js 44b54505021cb24e30bcef8238c9da8f",
+              "module": "./src/scripts/index.js + 17 modules",
+              "moduleName": "./src/scripts/index.js + 17 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "sweetalert",
+              "loc": "6:0-30"
+            },
+            {
+              "moduleId": 18,
+              "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js 44b54505021cb24e30bcef8238c9da8f",
+              "module": "./src/scripts/index.js + 17 modules",
+              "moduleName": "./src/scripts/index.js + 17 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "sweetalert",
+              "loc": "14:0-30"
+            },
+            {
+              "moduleId": 18,
+              "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js 44b54505021cb24e30bcef8238c9da8f",
+              "module": "./src/scripts/index.js + 17 modules",
+              "moduleName": "./src/scripts/index.js + 17 modules",
+              "type": "harmony import specifier",
+              "userRequest": "sweetalert",
+              "loc": "121:6-10"
+            },
+            {
+              "moduleId": 18,
+              "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js 44b54505021cb24e30bcef8238c9da8f",
+              "module": "./src/scripts/index.js + 17 modules",
+              "moduleName": "./src/scripts/index.js + 17 modules",
+              "type": "harmony import specifier",
+              "userRequest": "sweetalert",
+              "loc": "258:16-20"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4
+        },
+        {
+          "id": 8,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
           "name": "./node_modules/timers-browserify/main.js",
-          "index": 21,
-          "index2": 18,
+          "index": 16,
+          "index2": 14,
           "size": 1892,
           "cacheable": true,
           "built": true,
@@ -3182,7 +3272,7 @@
             3
           ],
           "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
-          "issuerId": 9,
+          "issuerId": 4,
           "issuerName": "./node_modules/sweetalert/dist/sweetalert.min.js",
           "issuerPath": [
             {
@@ -3206,12 +3296,7 @@
               "name": "./src/scripts/views/pages/detail.js"
             },
             {
-              "id": null,
-              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
-              "name": "./src/scripts/data/restaurantApi-source.js"
-            },
-            {
-              "id": 9,
+              "id": 4,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
               "name": "./node_modules/sweetalert/dist/sweetalert.min.js"
             }
@@ -3222,7 +3307,7 @@
           "assets": [],
           "reasons": [
             {
-              "moduleId": 9,
+              "moduleId": 4,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
               "module": "./node_modules/sweetalert/dist/sweetalert.min.js",
               "moduleName": "./node_modules/sweetalert/dist/sweetalert.min.js",
@@ -3231,7 +3316,7 @@
               "loc": "1:0-44"
             },
             {
-              "moduleId": 9,
+              "moduleId": 4,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
               "module": "./node_modules/sweetalert/dist/sweetalert.min.js",
               "moduleName": "./node_modules/sweetalert/dist/sweetalert.min.js",
@@ -3245,14 +3330,14 @@
           "optimizationBailout": [
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
-          "depth": 6
+          "depth": 5
         },
         {
-          "id": 8,
+          "id": 9,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\webpack\\buildin\\global.js",
           "name": "(webpack)/buildin/global.js",
-          "index": 22,
-          "index2": 15,
+          "index": 17,
+          "index2": 11,
           "size": 905,
           "cacheable": true,
           "built": true,
@@ -3262,7 +3347,7 @@
             3
           ],
           "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
-          "issuerId": 7,
+          "issuerId": 8,
           "issuerName": "./node_modules/timers-browserify/main.js",
           "issuerPath": [
             {
@@ -3286,17 +3371,12 @@
               "name": "./src/scripts/views/pages/detail.js"
             },
             {
-              "id": null,
-              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
-              "name": "./src/scripts/data/restaurantApi-source.js"
-            },
-            {
-              "id": 9,
+              "id": 4,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
               "name": "./node_modules/sweetalert/dist/sweetalert.min.js"
             },
             {
-              "id": 7,
+              "id": 8,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
               "name": "./node_modules/timers-browserify/main.js"
             }
@@ -3307,7 +3387,7 @@
           "assets": [],
           "reasons": [
             {
-              "moduleId": 7,
+              "moduleId": 8,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
               "module": "./node_modules/timers-browserify/main.js",
               "moduleName": "./node_modules/timers-browserify/main.js",
@@ -3330,84 +3410,7 @@
           "optimizationBailout": [
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
-          "depth": 7
-        },
-        {
-          "id": 9,
-          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
-          "name": "./node_modules/sweetalert/dist/sweetalert.min.js",
-          "index": 20,
-          "index2": 19,
-          "size": 58196,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            3
-          ],
-          "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
-          "issuerId": null,
-          "issuerName": "./src/scripts/data/restaurantApi-source.js",
-          "issuerPath": [
-            {
-              "id": null,
-              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js",
-              "name": "./src/scripts/index.js"
-            },
-            {
-              "id": null,
-              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\app.js",
-              "name": "./src/scripts/views/app.js"
-            },
-            {
-              "id": null,
-              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\routes\\routes.js",
-              "name": "./src/scripts/routes/routes.js"
-            },
-            {
-              "id": null,
-              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\detail.js",
-              "name": "./src/scripts/views/pages/detail.js"
-            },
-            {
-              "id": null,
-              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
-              "name": "./src/scripts/data/restaurantApi-source.js"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [],
-          "reasons": [
-            {
-              "moduleId": 18,
-              "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js 44b54505021cb24e30bcef8238c9da8f",
-              "module": "./src/scripts/index.js + 17 modules",
-              "moduleName": "./src/scripts/index.js + 17 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "sweetalert",
-              "loc": "14:0-30"
-            },
-            {
-              "moduleId": 18,
-              "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js 44b54505021cb24e30bcef8238c9da8f",
-              "module": "./src/scripts/index.js + 17 modules",
-              "moduleName": "./src/scripts/index.js + 17 modules",
-              "type": "harmony import specifier",
-              "userRequest": "sweetalert",
-              "loc": "258:16-20"
-            }
-          ],
-          "usedExports": [
-            "default"
-          ],
-          "providedExports": null,
-          "optimizationBailout": [
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 5
+          "depth": 6
         }
       ],
       "filteredModules": 0,
@@ -3436,7 +3439,7 @@
         "vendors~main~f9ca8911.bundle.js",
         "vendors~main~f9ca8911.bundle.js.map"
       ],
-      "hash": "269a288bd8870abb6d6d",
+      "hash": "9e3be63029c9acd43ea4",
       "siblings": [
         0,
         1,
@@ -3639,8 +3642,8 @@
           "id": 16,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\setimmediate\\setImmediate.js",
           "name": "./node_modules/setimmediate/setImmediate.js",
-          "index": 23,
-          "index2": 17,
+          "index": 18,
+          "index2": 13,
           "size": 5948,
           "cacheable": true,
           "built": true,
@@ -3650,7 +3653,7 @@
             4
           ],
           "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
-          "issuerId": 7,
+          "issuerId": 8,
           "issuerName": "./node_modules/timers-browserify/main.js",
           "issuerPath": [
             {
@@ -3674,17 +3677,12 @@
               "name": "./src/scripts/views/pages/detail.js"
             },
             {
-              "id": null,
-              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
-              "name": "./src/scripts/data/restaurantApi-source.js"
-            },
-            {
-              "id": 9,
+              "id": 4,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
               "name": "./node_modules/sweetalert/dist/sweetalert.min.js"
             },
             {
-              "id": 7,
+              "id": 8,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
               "name": "./node_modules/timers-browserify/main.js"
             }
@@ -3695,7 +3693,7 @@
           "assets": [],
           "reasons": [
             {
-              "moduleId": 7,
+              "moduleId": 8,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
               "module": "./node_modules/timers-browserify/main.js",
               "moduleName": "./node_modules/timers-browserify/main.js",
@@ -3709,14 +3707,14 @@
           "optimizationBailout": [
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
-          "depth": 7
+          "depth": 6
         },
         {
           "id": 17,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\process\\browser.js",
           "name": "./node_modules/process/browser.js",
-          "index": 24,
-          "index2": 16,
+          "index": 19,
+          "index2": 12,
           "size": 5081,
           "cacheable": true,
           "built": true,
@@ -3750,17 +3748,12 @@
               "name": "./src/scripts/views/pages/detail.js"
             },
             {
-              "id": null,
-              "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
-              "name": "./src/scripts/data/restaurantApi-source.js"
-            },
-            {
-              "id": 9,
+              "id": 4,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
               "name": "./node_modules/sweetalert/dist/sweetalert.min.js"
             },
             {
-              "id": 7,
+              "id": 8,
               "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
               "name": "./node_modules/timers-browserify/main.js"
             },
@@ -3790,7 +3783,7 @@
           "optimizationBailout": [
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
-          "depth": 8
+          "depth": 7
         }
       ],
       "filteredModules": 0,
@@ -3843,21 +3836,21 @@
       "reasons": [
         {
           "moduleId": 4,
-          "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\lazysizes.js",
-          "module": "./node_modules/lazysizes/lazysizes.js",
-          "moduleName": "./node_modules/lazysizes/lazysizes.js",
-          "type": "cjs require",
-          "userRequest": "module",
-          "loc": "1:0-41"
-        },
-        {
-          "moduleId": 9,
           "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
           "module": "./node_modules/sweetalert/dist/sweetalert.min.js",
           "moduleName": "./node_modules/sweetalert/dist/sweetalert.min.js",
           "type": "cjs require",
           "userRequest": "module",
           "loc": "1:0-44"
+        },
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\lazysizes.js",
+          "module": "./node_modules/lazysizes/lazysizes.js",
+          "moduleName": "./node_modules/lazysizes/lazysizes.js",
+          "type": "cjs require",
+          "userRequest": "module",
+          "loc": "1:0-41"
         },
         {
           "moduleId": 12,
@@ -3980,7 +3973,7 @@
         2
       ],
       "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
-      "issuerId": 6,
+      "issuerId": 7,
       "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
       "issuerPath": [
         {
@@ -3994,7 +3987,7 @@
           "name": "./src/styles/responsive.scss"
         },
         {
-          "id": 6,
+          "id": 7,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss"
         }
@@ -4005,7 +3998,7 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": 5,
+          "moduleId": 6,
           "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\style.scss",
           "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
           "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
@@ -4014,7 +4007,7 @@
           "loc": "2:0-121"
         },
         {
-          "moduleId": 5,
+          "moduleId": 6,
           "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\style.scss",
           "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
           "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
@@ -4023,7 +4016,7 @@
           "loc": "4:58-95"
         },
         {
-          "moduleId": 6,
+          "moduleId": 7,
           "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
           "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
           "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
@@ -4032,7 +4025,7 @@
           "loc": "2:0-121"
         },
         {
-          "moduleId": 6,
+          "moduleId": 7,
           "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
           "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
           "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
@@ -4065,7 +4058,7 @@
         2
       ],
       "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
-      "issuerId": 6,
+      "issuerId": 7,
       "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
       "issuerPath": [
         {
@@ -4079,7 +4072,7 @@
           "name": "./src/styles/responsive.scss"
         },
         {
-          "id": 6,
+          "id": 7,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss"
         }
@@ -4090,7 +4083,7 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": 5,
+          "moduleId": 6,
           "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\style.scss",
           "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
           "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
@@ -4099,7 +4092,7 @@
           "loc": "3:0-92"
         },
         {
-          "moduleId": 5,
+          "moduleId": 6,
           "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\style.scss",
           "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
           "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
@@ -4108,7 +4101,7 @@
           "loc": "4:30-57"
         },
         {
-          "moduleId": 6,
+          "moduleId": 7,
           "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
           "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
           "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
@@ -4117,7 +4110,7 @@
           "loc": "3:0-92"
         },
         {
-          "moduleId": 6,
+          "moduleId": 7,
           "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
           "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
           "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
@@ -4137,6 +4130,96 @@
     },
     {
       "id": 4,
+      "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
+      "name": "./node_modules/sweetalert/dist/sweetalert.min.js",
+      "index": 15,
+      "index2": 15,
+      "size": 58196,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        3
+      ],
+      "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\detail.js",
+      "issuerId": null,
+      "issuerName": "./src/scripts/views/pages/detail.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js",
+          "name": "./src/scripts/index.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\app.js",
+          "name": "./src/scripts/views/app.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\routes\\routes.js",
+          "name": "./src/scripts/routes/routes.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\detail.js",
+          "name": "./src/scripts/views/pages/detail.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 18,
+          "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js 44b54505021cb24e30bcef8238c9da8f",
+          "module": "./src/scripts/index.js + 17 modules",
+          "moduleName": "./src/scripts/index.js + 17 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "sweetalert",
+          "loc": "6:0-30"
+        },
+        {
+          "moduleId": 18,
+          "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js 44b54505021cb24e30bcef8238c9da8f",
+          "module": "./src/scripts/index.js + 17 modules",
+          "moduleName": "./src/scripts/index.js + 17 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "sweetalert",
+          "loc": "14:0-30"
+        },
+        {
+          "moduleId": 18,
+          "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js 44b54505021cb24e30bcef8238c9da8f",
+          "module": "./src/scripts/index.js + 17 modules",
+          "moduleName": "./src/scripts/index.js + 17 modules",
+          "type": "harmony import specifier",
+          "userRequest": "sweetalert",
+          "loc": "121:6-10"
+        },
+        {
+          "moduleId": 18,
+          "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js 44b54505021cb24e30bcef8238c9da8f",
+          "module": "./src/scripts/index.js + 17 modules",
+          "moduleName": "./src/scripts/index.js + 17 modules",
+          "type": "harmony import specifier",
+          "userRequest": "sweetalert",
+          "loc": "258:16-20"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    },
+    {
+      "id": 5,
       "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\lazysizes\\lazysizes.js",
       "name": "./node_modules/lazysizes/lazysizes.js",
       "index": 10,
@@ -4200,7 +4283,7 @@
       "depth": 1
     },
     {
-      "id": 5,
+      "id": 6,
       "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\style.scss",
       "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss",
       "index": 5,
@@ -4273,7 +4356,7 @@
       "depth": 2
     },
     {
-      "id": 6,
+      "id": 7,
       "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\css-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sass-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\styles\\responsive.scss",
       "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/responsive.scss",
       "index": 9,
@@ -4346,11 +4429,11 @@
       "depth": 2
     },
     {
-      "id": 7,
+      "id": 8,
       "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
       "name": "./node_modules/timers-browserify/main.js",
-      "index": 21,
-      "index2": 18,
+      "index": 16,
+      "index2": 14,
       "size": 1892,
       "cacheable": true,
       "built": true,
@@ -4360,7 +4443,7 @@
         3
       ],
       "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
-      "issuerId": 9,
+      "issuerId": 4,
       "issuerName": "./node_modules/sweetalert/dist/sweetalert.min.js",
       "issuerPath": [
         {
@@ -4384,12 +4467,7 @@
           "name": "./src/scripts/views/pages/detail.js"
         },
         {
-          "id": null,
-          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
-          "name": "./src/scripts/data/restaurantApi-source.js"
-        },
-        {
-          "id": 9,
+          "id": 4,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
           "name": "./node_modules/sweetalert/dist/sweetalert.min.js"
         }
@@ -4400,7 +4478,7 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": 9,
+          "moduleId": 4,
           "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
           "module": "./node_modules/sweetalert/dist/sweetalert.min.js",
           "moduleName": "./node_modules/sweetalert/dist/sweetalert.min.js",
@@ -4409,7 +4487,7 @@
           "loc": "1:0-44"
         },
         {
-          "moduleId": 9,
+          "moduleId": 4,
           "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
           "module": "./node_modules/sweetalert/dist/sweetalert.min.js",
           "moduleName": "./node_modules/sweetalert/dist/sweetalert.min.js",
@@ -4423,14 +4501,14 @@
       "optimizationBailout": [
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
-      "depth": 6
+      "depth": 5
     },
     {
-      "id": 8,
+      "id": 9,
       "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\webpack\\buildin\\global.js",
       "name": "(webpack)/buildin/global.js",
-      "index": 22,
-      "index2": 15,
+      "index": 17,
+      "index2": 11,
       "size": 905,
       "cacheable": true,
       "built": true,
@@ -4440,7 +4518,7 @@
         3
       ],
       "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
-      "issuerId": 7,
+      "issuerId": 8,
       "issuerName": "./node_modules/timers-browserify/main.js",
       "issuerPath": [
         {
@@ -4464,17 +4542,12 @@
           "name": "./src/scripts/views/pages/detail.js"
         },
         {
-          "id": null,
-          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
-          "name": "./src/scripts/data/restaurantApi-source.js"
-        },
-        {
-          "id": 9,
+          "id": 4,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
           "name": "./node_modules/sweetalert/dist/sweetalert.min.js"
         },
         {
-          "id": 7,
+          "id": 8,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
           "name": "./node_modules/timers-browserify/main.js"
         }
@@ -4485,7 +4558,7 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": 7,
+          "moduleId": 8,
           "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
           "module": "./node_modules/timers-browserify/main.js",
           "moduleName": "./node_modules/timers-browserify/main.js",
@@ -4508,84 +4581,7 @@
       "optimizationBailout": [
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
-      "depth": 7
-    },
-    {
-      "id": 9,
-      "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
-      "name": "./node_modules/sweetalert/dist/sweetalert.min.js",
-      "index": 20,
-      "index2": 19,
-      "size": 58196,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        3
-      ],
-      "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
-      "issuerId": null,
-      "issuerName": "./src/scripts/data/restaurantApi-source.js",
-      "issuerPath": [
-        {
-          "id": null,
-          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js",
-          "name": "./src/scripts/index.js"
-        },
-        {
-          "id": null,
-          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\app.js",
-          "name": "./src/scripts/views/app.js"
-        },
-        {
-          "id": null,
-          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\routes\\routes.js",
-          "name": "./src/scripts/routes/routes.js"
-        },
-        {
-          "id": null,
-          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\detail.js",
-          "name": "./src/scripts/views/pages/detail.js"
-        },
-        {
-          "id": null,
-          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
-          "name": "./src/scripts/data/restaurantApi-source.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "assets": [],
-      "reasons": [
-        {
-          "moduleId": 18,
-          "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js 44b54505021cb24e30bcef8238c9da8f",
-          "module": "./src/scripts/index.js + 17 modules",
-          "moduleName": "./src/scripts/index.js + 17 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "sweetalert",
-          "loc": "14:0-30"
-        },
-        {
-          "moduleId": 18,
-          "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\index.js 44b54505021cb24e30bcef8238c9da8f",
-          "module": "./src/scripts/index.js + 17 modules",
-          "moduleName": "./src/scripts/index.js + 17 modules",
-          "type": "harmony import specifier",
-          "userRequest": "sweetalert",
-          "loc": "258:16-20"
-        }
-      ],
-      "usedExports": [
-        "default"
-      ],
-      "providedExports": null,
-      "optimizationBailout": [
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
-      ],
-      "depth": 5
+      "depth": 6
     },
     {
       "id": 10,
@@ -4653,8 +4649,8 @@
       "id": 11,
       "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\idb\\build\\esm\\index.js f31e7a2bf85ce505e93ae12cd97b578f",
       "name": "./node_modules/idb/build/esm/index.js + 1 modules",
-      "index": 16,
-      "index2": 12,
+      "index": 21,
+      "index2": 17,
       "size": 13501,
       "cacheable": true,
       "built": true,
@@ -4707,8 +4703,8 @@
           "id": null,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\idb\\build\\esm\\index.js",
           "name": "./node_modules/idb/build/esm/index.js",
-          "index": 16,
-          "index2": 12,
+          "index": 21,
+          "index2": 17,
           "size": 6098,
           "cacheable": true,
           "built": true,
@@ -4785,8 +4781,8 @@
           "id": null,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\idb\\build\\esm\\wrap-idb-value.js",
           "name": "./node_modules/idb/build/esm/wrap-idb-value.js",
-          "index": 17,
-          "index2": 11,
+          "index": 22,
+          "index2": 16,
           "size": 7403,
           "cacheable": true,
           "built": true,
@@ -5120,8 +5116,8 @@
       "id": 16,
       "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\setimmediate\\setImmediate.js",
       "name": "./node_modules/setimmediate/setImmediate.js",
-      "index": 23,
-      "index2": 17,
+      "index": 18,
+      "index2": 13,
       "size": 5948,
       "cacheable": true,
       "built": true,
@@ -5131,7 +5127,7 @@
         4
       ],
       "issuer": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
-      "issuerId": 7,
+      "issuerId": 8,
       "issuerName": "./node_modules/timers-browserify/main.js",
       "issuerPath": [
         {
@@ -5155,17 +5151,12 @@
           "name": "./src/scripts/views/pages/detail.js"
         },
         {
-          "id": null,
-          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
-          "name": "./src/scripts/data/restaurantApi-source.js"
-        },
-        {
-          "id": 9,
+          "id": 4,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
           "name": "./node_modules/sweetalert/dist/sweetalert.min.js"
         },
         {
-          "id": 7,
+          "id": 8,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
           "name": "./node_modules/timers-browserify/main.js"
         }
@@ -5176,7 +5167,7 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": 7,
+          "moduleId": 8,
           "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
           "module": "./node_modules/timers-browserify/main.js",
           "moduleName": "./node_modules/timers-browserify/main.js",
@@ -5190,14 +5181,14 @@
       "optimizationBailout": [
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
-      "depth": 7
+      "depth": 6
     },
     {
       "id": 17,
       "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\process\\browser.js",
       "name": "./node_modules/process/browser.js",
-      "index": 24,
-      "index2": 16,
+      "index": 19,
+      "index2": 12,
       "size": 5081,
       "cacheable": true,
       "built": true,
@@ -5231,17 +5222,12 @@
           "name": "./src/scripts/views/pages/detail.js"
         },
         {
-          "id": null,
-          "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
-          "name": "./src/scripts/data/restaurantApi-source.js"
-        },
-        {
-          "id": 9,
+          "id": 4,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\sweetalert\\dist\\sweetalert.min.js",
           "name": "./node_modules/sweetalert/dist/sweetalert.min.js"
         },
         {
-          "id": 7,
+          "id": 8,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\timers-browserify\\main.js",
           "name": "./node_modules/timers-browserify/main.js"
         },
@@ -5271,7 +5257,7 @@
       "optimizationBailout": [
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
-      "depth": 8
+      "depth": 7
     },
     {
       "id": 18,
@@ -5279,7 +5265,7 @@
       "name": "./src/scripts/index.js + 17 modules",
       "index": 0,
       "index2": 36,
-      "size": 54071,
+      "size": 54242,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -5504,7 +5490,7 @@
               "moduleName": "./src/scripts/views/pages/detail.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../../routes/url-parser",
-              "loc": "8:0-48"
+              "loc": "9:0-48"
             },
             {
               "moduleId": null,
@@ -5522,7 +5508,7 @@
               "moduleName": "./src/scripts/views/pages/detail.js",
               "type": "harmony import specifier",
               "userRequest": "../../routes/url-parser",
-              "loc": "38:20-29"
+              "loc": "39:20-29"
             },
             {
               "moduleId": null,
@@ -5789,7 +5775,7 @@
           "name": "./src/scripts/views/pages/detail.js",
           "index": 14,
           "index2": 25,
-          "size": 5356,
+          "size": 5498,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -6056,8 +6042,8 @@
           "id": null,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\favoriterestaurant-idb.js",
           "name": "./src/scripts/data/favoriterestaurant-idb.js",
-          "index": 15,
-          "index2": 14,
+          "index": 20,
+          "index2": 19,
           "size": 4066,
           "cacheable": true,
           "built": true,
@@ -6110,7 +6096,7 @@
               "moduleName": "./src/scripts/views/pages/detail.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../../data/favoriterestaurant-idb",
-              "loc": "6:0-70"
+              "loc": "7:0-70"
             },
             {
               "moduleId": null,
@@ -6128,7 +6114,7 @@
               "moduleName": "./src/scripts/views/pages/detail.js",
               "type": "harmony import specifier",
               "userRequest": "../../data/favoriterestaurant-idb",
-              "loc": "58:36-57"
+              "loc": "59:36-57"
             }
           ],
           "usedExports": [
@@ -6146,7 +6132,7 @@
           "name": "./src/scripts/views/templates/template-creator.js",
           "index": 26,
           "index2": 21,
-          "size": 7144,
+          "size": 7173,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -6225,7 +6211,7 @@
               "moduleName": "./src/scripts/views/pages/detail.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../templates/template-creator",
-              "loc": "10:0-167"
+              "loc": "11:0-167"
             },
             {
               "moduleId": null,
@@ -6310,15 +6296,6 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\detail.js",
-              "module": "./src/scripts/views/pages/detail.js",
-              "moduleName": "./src/scripts/views/pages/detail.js",
-              "type": "harmony import specifier",
-              "userRequest": "../templates/template-creator",
-              "loc": "98:32-62"
-            },
-            {
-              "moduleId": null,
               "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\utils\\like-button-presenter.js",
               "module": "./src/scripts/utils/like-button-presenter.js",
               "moduleName": "./src/scripts/utils/like-button-presenter.js",
@@ -6333,7 +6310,7 @@
               "moduleName": "./src/scripts/views/pages/detail.js",
               "type": "harmony import specifier",
               "userRequest": "../templates/template-creator",
-              "loc": "120:32-54"
+              "loc": "101:32-62"
             },
             {
               "moduleId": null,
@@ -6342,7 +6319,7 @@
               "moduleName": "./src/scripts/views/pages/detail.js",
               "type": "harmony import specifier",
               "userRequest": "../templates/template-creator",
-              "loc": "124:34-60"
+              "loc": "125:32-54"
             },
             {
               "moduleId": null,
@@ -6351,7 +6328,16 @@
               "moduleName": "./src/scripts/views/pages/detail.js",
               "type": "harmony import specifier",
               "userRequest": "../templates/template-creator",
-              "loc": "128:36-70"
+              "loc": "129:34-60"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\views\\pages\\detail.js",
+              "module": "./src/scripts/views/pages/detail.js",
+              "moduleName": "./src/scripts/views/pages/detail.js",
+              "type": "harmony import specifier",
+              "userRequest": "../templates/template-creator",
+              "loc": "133:36-70"
             },
             {
               "moduleId": null,
@@ -6423,7 +6409,7 @@
           "id": null,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\data\\restaurantApi-source.js",
           "name": "./src/scripts/data/restaurantApi-source.js",
-          "index": 19,
+          "index": 24,
           "index2": 22,
           "size": 9606,
           "cacheable": true,
@@ -6486,7 +6472,7 @@
               "moduleName": "./src/scripts/views/pages/detail.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../../data/restaurantApi-source",
-              "loc": "7:0-66"
+              "loc": "8:0-66"
             },
             {
               "moduleId": null,
@@ -6504,7 +6490,7 @@
               "moduleName": "./src/scripts/views/pages/detail.js",
               "type": "harmony import specifier",
               "userRequest": "../../data/restaurantApi-source",
-              "loc": "41:21-40"
+              "loc": "42:21-40"
             },
             {
               "moduleId": null,
@@ -6522,7 +6508,7 @@
               "moduleName": "./src/scripts/views/pages/detail.js",
               "type": "harmony import specifier",
               "userRequest": "../../data/restaurantApi-source",
-              "loc": "116:6-25"
+              "loc": "119:6-25"
             }
           ],
           "usedExports": [
@@ -6583,7 +6569,7 @@
               "moduleName": "./src/scripts/views/pages/detail.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../../utils/like-button-presenter",
-              "loc": "9:0-68"
+              "loc": "10:0-68"
             },
             {
               "moduleId": null,
@@ -6592,7 +6578,7 @@
               "moduleName": "./src/scripts/views/pages/detail.js",
               "type": "harmony import specifier",
               "userRequest": "../../utils/like-button-presenter",
-              "loc": "56:14-33"
+              "loc": "57:14-33"
             }
           ],
           "usedExports": [
@@ -6608,8 +6594,8 @@
           "id": null,
           "identifier": "D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\babel-loader\\lib\\index.js??ref--7-0!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\node_modules\\source-map-loader\\dist\\cjs.js!D:\\Programming\\WebApps\\Dicoding Academy\\Front-End Web Developer Expert\\Final Project\\NongkiKuy\\src\\scripts\\globals\\config.js",
           "name": "./src/scripts/globals/config.js",
-          "index": 18,
-          "index2": 13,
+          "index": 23,
+          "index2": 18,
           "size": 345,
           "cacheable": true,
           "built": true,
@@ -7231,7 +7217,7 @@
       "assets": [
         {
           "name": "sw.js",
-          "size": 12207,
+          "size": 12259,
           "chunks": [
             0
           ],
@@ -7241,7 +7227,7 @@
         },
         {
           "name": "sw.js.map",
-          "size": 45504,
+          "size": 45682,
           "chunks": [
             0
           ],
@@ -7285,13 +7271,13 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 33761,
+          "size": 33871,
           "names": [],
           "files": [
             "sw.js",
             "sw.js.map"
           ],
-          "hash": "b7d1f2ae73441bda02a9",
+          "hash": "3a389da7196822cb877a",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -7485,7 +7471,7 @@
               "name": "./src/scripts/utils/cache-helper.js + 1 modules",
               "index": 4,
               "index2": 4,
-              "size": 5655,
+              "size": 5765,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -7525,7 +7511,7 @@
                   "name": "./src/scripts/utils/cache-helper.js",
                   "index": 4,
                   "index2": 4,
-                  "size": 5310,
+                  "size": 5420,
                   "cacheable": true,
                   "built": true,
                   "optional": false,
@@ -7840,7 +7826,7 @@
           "name": "./src/scripts/utils/cache-helper.js + 1 modules",
           "index": 4,
           "index2": 4,
-          "size": 5655,
+          "size": 5765,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -7880,7 +7866,7 @@
               "name": "./src/scripts/utils/cache-helper.js",
               "index": 4,
               "index2": 4,
-              "size": 5310,
+              "size": 5420,
               "cacheable": true,
               "built": true,
               "optional": false,
