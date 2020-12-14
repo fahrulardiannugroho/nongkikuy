@@ -41,7 +41,6 @@ const CacheHelper = {
 
 	async _addCache(request) {
 		const cache = await this._openCache();
-		console.log(request.method);
 		if (!request.method === 'POST') {
 			cache.add(request);
 		}
